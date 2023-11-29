@@ -1,0 +1,17 @@
+def inputInt(a):
+   x = int(input(a))
+   return x   
+
+def inputFloat(a):
+   x = float(input(a))
+   return x 
+
+def inputBoolean(a):
+   x = bool(input(a))
+   return x   
+
+
+n = inputInt("Enter the first integer: ")
+m = inputInt("Enter the second integer: ")
+
+print( n + m )
