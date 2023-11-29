@@ -1,0 +1,8 @@
+def drawLine( length, direction):
+    if direction == "v":
+        print("-" * length)
+    elif direction == "h":
+        print(length * "|\n")
+    
+    
+drawLine(50, "v")
