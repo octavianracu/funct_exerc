@@ -1,0 +1,10 @@
+def wrap_brackets( text ):
+  return "(" + text + ")"
+
+def wrap_square(text):
+  return "["*3 + wrap_brackets(text) + "]"*3
+
+def wrap_greater(text):
+  return "<"*3 + wrap_square(text) + ">"*3
+
+print(wrap_greater("1234"))
